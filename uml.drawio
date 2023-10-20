@@ -1,0 +1,116 @@
+<mxfile host="Electron" modified="2023-08-24T10:57:16.205Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="XPaXW2-idFP1WDwAafMV" version="21.5.0" type="device">
+  <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
+    <mxGraphModel dx="1418" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n447XlewqQ6FtgSITqyU-9" value="Sì" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n447XlewqQ6FtgSITqyU-7" target="n447XlewqQ6FtgSITqyU-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cia9hO0tFwQPy8HrVSLK-19" value="Sì" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;exitX=0.187;exitY=0.265;exitDx=0;exitDy=0;exitPerimeter=0;jumpSize=14;" parent="1" source="n447XlewqQ6FtgSITqyU-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="600" as="sourcePoint" />
+            <mxPoint x="758.4999999999975" y="75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="525" />
+              <mxPoint x="810" y="75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uYrhdRe4wEAf7BasoDVc-2" value="SetupMode() == false" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="uYrhdRe4wEAf7BasoDVc-3">
+          <mxGeometry x="0.5567" relative="1" as="geometry">
+            <mxPoint x="715" y="270" as="sourcePoint" />
+            <mxPoint x="550" y="395" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n447XlewqQ6FtgSITqyU-7" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;L&#39;orario dell&#39;erogazione&lt;br style=&quot;font-size: 10px;&quot;&gt;coincide con l&#39;orario attuale?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="650" y="330" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="n447XlewqQ6FtgSITqyU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n447XlewqQ6FtgSITqyU-8" target="n447XlewqQ6FtgSITqyU-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n447XlewqQ6FtgSITqyU-8" value="Eroga cibo" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="860" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n447XlewqQ6FtgSITqyU-13" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="n447XlewqQ6FtgSITqyU-10" target="n447XlewqQ6FtgSITqyU-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n447XlewqQ6FtgSITqyU-10" value="Il cibo erogato ha raggiunto il peso desiderato?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="855" y="505" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="n447XlewqQ6FtgSITqyU-16" value="SetupMode() == true" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;jumpSize=14;" parent="1" source="n447XlewqQ6FtgSITqyU-14" target="n447XlewqQ6FtgSITqyU-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540.0000000000002" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n447XlewqQ6FtgSITqyU-28" value="SetupMode() == false" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="n447XlewqQ6FtgSITqyU-14" target="n447XlewqQ6FtgSITqyU-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n447XlewqQ6FtgSITqyU-14" value="Leggi stato switch" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="650" y="180" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="cia9hO0tFwQPy8HrVSLK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cia9hO0tFwQPy8HrVSLK-2" target="n447XlewqQ6FtgSITqyU-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cia9hO0tFwQPy8HrVSLK-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="672.5" y="50" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n447XlewqQ6FtgSITqyU-15" value="Imposta quantità di cibo da erogare" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Verdana;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="275" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n447XlewqQ6FtgSITqyU-20" value="Premi pulsante" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="n447XlewqQ6FtgSITqyU-17" target="n447XlewqQ6FtgSITqyU-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n447XlewqQ6FtgSITqyU-17" value="Imposta orario di erogazione" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Verdana;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n447XlewqQ6FtgSITqyU-21" value="Premi piulsante" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="n447XlewqQ6FtgSITqyU-15" target="n447XlewqQ6FtgSITqyU-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cia9hO0tFwQPy8HrVSLK-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="n447XlewqQ6FtgSITqyU-31" target="cia9hO0tFwQPy8HrVSLK-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n447XlewqQ6FtgSITqyU-31" value="Imposta erogazione" style="swimlane;whiteSpace=wrap;html=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="142.5" width="390" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n447XlewqQ6FtgSITqyU-32" value="Imposta quantità di cibo da erogare" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Verdana;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="275" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n447XlewqQ6FtgSITqyU-33" value="Imposta orario di erogazione" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Verdana;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uYrhdRe4wEAf7BasoDVc-6" value="Sì" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uYrhdRe4wEAf7BasoDVc-3" target="uYrhdRe4wEAf7BasoDVc-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="500" />
+              <mxPoint x="330" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uYrhdRe4wEAf7BasoDVc-9" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=arc;jumpSize=12;" edge="1" parent="1" source="uYrhdRe4wEAf7BasoDVc-3">
+          <mxGeometry x="-0.5654" relative="1" as="geometry">
+            <mxPoint x="630" y="80" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uYrhdRe4wEAf7BasoDVc-3" value="Il pulsante è premuto?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="470" y="382.5" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="uYrhdRe4wEAf7BasoDVc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uYrhdRe4wEAf7BasoDVc-4" target="uYrhdRe4wEAf7BasoDVc-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uYrhdRe4wEAf7BasoDVc-4" value="Eroga acqua" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Verdana;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
